@@ -1,0 +1,28 @@
+"use strict";
+class Helicopter {
+    canFly() {
+        console.log('Helicoper Can Fly');
+    }
+}
+let helicopter = new Helicopter();
+console.log(helicopter.canFly());
+class FlyingCar {
+    canFly() {
+        console.log('Cars Can Fly');
+    }
+    start() {
+        console.log('Flying Car Started');
+    }
+    drive() {
+        console.log('I am Flying my car  to Office');
+    }
+    getPostion() {
+        return 'I am at Gurgaon IBM Flying Parking';
+    }
+}
+let flyingCar = new FlyingCar();
+console.log(flyingCar.canFly());
+console.log(flyingCar.start());
+console.log(flyingCar.drive());
+console.log(flyingCar.getPostion());
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXNzaWdubWVudCA0LjFfMi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkFzc2lnbm1lbnQgNC4xXzIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQVdBO0lBQ0ksTUFBTTtRQUNGLE9BQU8sQ0FBQyxHQUFHLENBQUMsbUJBQW1CLENBQUMsQ0FBQztJQUNyQyxDQUFDO0NBQ0o7QUFFRCxJQUFJLFVBQVUsR0FBRyxJQUFJLFVBQVUsRUFBRSxDQUFDO0FBQ2xDLE9BQU8sQ0FBQyxHQUFHLENBQUMsVUFBVSxDQUFDLE1BQU0sRUFBRSxDQUFDLENBQUM7QUFFakM7SUFDSSxNQUFNO1FBQ0YsT0FBTyxDQUFDLEdBQUcsQ0FBQyxjQUFjLENBQUMsQ0FBQztJQUNoQyxDQUFDO0lBRUQsS0FBSztRQUNELE9BQU8sQ0FBQyxHQUFHLENBQUMsb0JBQW9CLENBQUMsQ0FBQztJQUN0QyxDQUFDO0lBRUQsS0FBSztRQUNELE9BQU8sQ0FBQyxHQUFHLENBQUMsK0JBQStCLENBQUMsQ0FBQztJQUNqRCxDQUFDO0lBRUQsVUFBVTtRQUNOLE1BQU0sQ0FBQyxvQ0FBb0MsQ0FBQztJQUNoRCxDQUFDO0NBQ0o7QUFFRCxJQUFJLFNBQVMsR0FBRyxJQUFJLFNBQVMsRUFBRSxDQUFDO0FBRWhDLE9BQU8sQ0FBQyxHQUFHLENBQUMsU0FBUyxDQUFDLE1BQU0sRUFBRSxDQUFDLENBQUM7QUFDaEMsT0FBTyxDQUFDLEdBQUcsQ0FBQyxTQUFTLENBQUMsS0FBSyxFQUFFLENBQUMsQ0FBQztBQUMvQixPQUFPLENBQUMsR0FBRyxDQUFDLFNBQVMsQ0FBQyxLQUFLLEVBQUUsQ0FBQyxDQUFDO0FBQy9CLE9BQU8sQ0FBQyxHQUFHLENBQUMsU0FBUyxDQUFDLFVBQVUsRUFBRSxDQUFDLENBQUMifQ==

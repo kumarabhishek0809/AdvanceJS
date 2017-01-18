@@ -1,0 +1,21 @@
+function operateInterfaceExample(x) {
+    console.log(x.shape);
+    return x.size * x.size;
+}
+console.log('Interface for Square' + operateInterfaceExample({ shape: 'Square', size: 10 }));
+function createPlayer() {
+    return {
+        run: function () { },
+        addLives: function (n) { },
+        scores: function () {
+            return 10;
+        }
+    };
+}
+class Website {
+}
+let google = new Website();
+google.url = 'www.goggle.com';
+google.facebookLike = 20;
+console.log('Google' + google);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSW50ZXJmYWNlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiSW50ZXJmYWNlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtBLGlDQUFrQyxDQUFrQjtJQUNoRCxPQUFPLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsQ0FBQztJQUNyQixNQUFNLENBQUUsQ0FBQyxDQUFDLElBQUksR0FBRyxDQUFDLENBQUMsSUFBSSxDQUFDO0FBQzVCLENBQUM7QUFFRCxPQUFPLENBQUMsR0FBRyxDQUFDLHNCQUFzQixHQUFDLHVCQUF1QixDQUFDLEVBQUMsS0FBSyxFQUFDLFFBQVEsRUFBQyxJQUFJLEVBQUMsRUFBRSxFQUFDLENBQUMsQ0FBQyxDQUFBO0FBU3JGO0lBQ0ksTUFBTSxDQUFDO1FBQ0gsR0FBRyxFQUFHLGNBQVksQ0FBQztRQUNuQixRQUFRLEVBQUcsVUFBUyxDQUFRLElBQUUsQ0FBQztRQUMvQixNQUFNLEVBQUc7WUFDTCxNQUFNLENBQUMsRUFBRSxDQUFDO1FBQ2QsQ0FBQztLQUNKLENBQUE7QUFDTCxDQUFDO0FBR0Q7Q0FHQztBQUVELElBQUksTUFBTSxHQUFHLElBQUksT0FBTyxFQUFFLENBQUM7QUFDM0IsTUFBTSxDQUFDLEdBQUcsR0FBRyxnQkFBZ0IsQ0FBQztBQUM5QixNQUFNLENBQUMsWUFBWSxHQUFHLEVBQUUsQ0FBQztBQUV6QixPQUFPLENBQUMsR0FBRyxDQUFDLFFBQVEsR0FBQyxNQUFNLENBQUMsQ0FBQyJ9
